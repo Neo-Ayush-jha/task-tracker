@@ -67,7 +67,7 @@ export function TaskForm({ onSubmit, isLoading }: TaskFormProps) {
 
   return (
     <form onSubmit={handleSubmit} className="bg-white rounded-xl shadow-md p-6 border border-gray-200">
-      <h2 className="text-xl font-semibold text-gray-900 mb-6">Create New Task</h2>
+      <h2 className="text-xl font-semibold text-gray-900 mb-3">Create New Task</h2>
 
       <div className="space-y-5">
         <div>
